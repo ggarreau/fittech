@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitTech - AI-powered Marketing and Business Development</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Welcome to FitTech</h1>
+      <p>We help fitness, wellness, and sports brands leverage AI to automate their marketing and business development efforts.</p>
+      <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="about">
+      <h2>About FitTech</h2>
+      <p>FitTech is a leading AI-powered marketing and business development agency specializing in the fitness, wellness, and sports industries. With over 5 years of experience, we combine cutting-edge technology with our expertise in copywriting, social media, and marketing strategy to help our clients achieve exceptional results.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>AI-powered Marketing Strategy</li>
+        <li>Content Creation and Optimization</li>
+        <li>Social Media Management</li>
+        <li>Data Analysis and Insights</li>
+      </ul>
+    </section>
+
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonial">
+        <blockquote>
+          "FitTech has been instrumental in revolutionizing our marketing efforts. Their AI-driven approach has boosted our brand visibility and attracted new customers."
+        </blockquote>
+        <cite>Jane Smith, CEO of XYZ Fitness</cite>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact FitTech</h2>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 FitTech. All rights reserved.</p>
+  </footer>
+</body>
+</html>
